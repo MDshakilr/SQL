@@ -1,0 +1,42 @@
+1)table create
+
+create table test(
+id number(3),
+name varchar(20),  
+mark number(3,2)
+);
+
+
+2)table structure
+
+describe test;
+
+
+3)Insert Row
+ 
+insert into test (id, name, mark) values (1,’r1207001’,8.32);
+insert into test (id, name, mark) values (1,’r1207001’,8.32);
+insert into test (id, name, mark) values (1,’r1207001’,8.32);
+
+
+4)see rows of table
+
+select*from test;
+
+
+5)table list in my account
+select* from tab;
+
+
+
+6)delete (single row)
+
+delete from test;
+
+
+7)drop table (full table)
+
+drop table test;
+
+8)trancate
+TRUNCATE TABLE table_name;
