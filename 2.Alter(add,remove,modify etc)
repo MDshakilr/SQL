@@ -1,0 +1,27 @@
+1)alter  
+ a)add column
+
+CREATE TABLE stock( 
+ md_num number(3), 
+ qty number(3), 
+ price number(3) 
+ );
+
+alter table stock
+add address varchar(10);
+
+
+b)multiple culumn add
+
+
+
+create table test(
+id number(3),
+name varchar(20),  
+mark number(3,2)
+);
+
+alter table test
+   add( section varchar(20),
+   depertment varchar(20)
+);
